@@ -8,6 +8,24 @@ pipeline {
         
       }
     }
+    stage('test'){
+      steps{
+      sh 'echo Hello'
+        
+      }
+    }
+    stage('uat'){
+      steps{
+      sh 'echo Hello'
+        
+      }
+    }
+    stage('deploy'){
+      steps{
+      sh 'echo Hello'
+        
+      }
+    }
   }
   
 }
